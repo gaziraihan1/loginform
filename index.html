@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="m-0 p-0">
+    <div class="grid grid-cols-12 grid-rows-4 h-auto bg-slate-800">
+        <div class="row-start-1 row-end-2 col-start-1 col-end-13 bg-slate-600 relative">
+            <nav class="h-10 w-full flex row-reverse justify-end sm:h-12 sm:w-full">
+                <button id="menuBtn" class="block h-9 text-3xl mx-8 text-white sm:hidden">&equiv;</button>
+                <ul id="mainMenu" class="hidden absolute w-full left-0 top-9 p-4 text-center bg-orange-300  sm:relative sm:top-0 sm:flex sm:p-3 sm:flex-row-reverse sm:bg-slate-600 sm:mb-0 sm:justify-center">
+                    <li class="mb-2 sm:mb-0 sm:mx-4 sm:hover:bg-slate-600">
+                        <a class="text-white text-xl font-semibold sm:text-sm" href="">Home</a>
+                    </li>
+                    <li class="mb-2 sm:mb-0 sm:mx-4 sm:hover:bg-slate-600">
+                        <a class="text-white text-xl font-semibold sm:text-sm" href="">About me</a>
+                    </li>
+                    <li class="mb-2 sm:mb-0 sm:mx-4 sm:hover:bg-slate-600">
+                        <a class="text-white text-xl font-semibold sm:text-sm" href="">Skills</a>
+                    </li>
+                    <li class="mb-2 sm:mb-0 sm:mx-4 sm:hover:bg-slate-600">
+                        <a class="text-white text-xl font-semibold sm:text-sm" href="">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="row-start-2 row-end-3 col-start-1 col-end-13 text-white mt-4 ml-2">
+            about me
+        </div>
+        <div class="row-start-3 row-end-4 col-start-1 col-end-13 text-white mt-4 ml-2">
+            skills
+        </div>
+        <div class="row-start-4 row-end-5 col-start-1 col-end-13 text-white mt-4 ml-2">
+            contacts
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

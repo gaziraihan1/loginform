@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="m-0 p-0">
-    <div class="grid grid-cols-12 grid-rows-4 h-auto bg-slate-800">
-        <div class="row-start-1 row-end-2 col-start-1 col-end-13 bg-slate-600 relative">
+    <div class="h-auto bg-slate-800">
+        <div class=" bg-slate-600 relative">
             <nav class="h-10 w-full flex row-reverse justify-end sm:h-12 sm:w-full">
                 <button id="menuBtn" class="block h-9 text-3xl mx-8 text-white sm:hidden">&equiv;</button>
                 <ul id="mainMenu" class="hidden absolute w-full left-0 top-9 p-4 text-center bg-orange-300  sm:relative sm:top-0 sm:flex sm:p-3 sm:flex-row-reverse sm:bg-slate-600 sm:mb-0 sm:justify-center">
@@ -27,14 +27,17 @@
                 </ul>
             </nav>
         </div>
-        <div class="row-start-2 row-end-3 col-start-1 col-end-13 text-white mt-4 ml-2">
-            about me
-        </div>
-        <div class="row-start-3 row-end-4 col-start-1 col-end-13 text-white mt-4 ml-2">
-            skills
-        </div>
-        <div class="row-start-4 row-end-5 col-start-1 col-end-13 text-white mt-4 ml-2">
-            contacts
+        <div>
+            <div class="text-white bg-slate-400 ">
+                <p>Welcome Back</p>
+                <p>Enter your details for sign in</p>
+                <form action="">
+                    <label for="email">En</label>
+                </form>
+            </div>
+            <div>
+                <img class="w-full h-full" src="login-page-img.png" alt="login page">
+            </div>
         </div>
     </div>
     <script src="script.js"></script>

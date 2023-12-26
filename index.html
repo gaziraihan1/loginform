@@ -7,25 +7,33 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="m-0 p-0">
-    <div class="h-auto bg-slate-800">
-        <div class=" bg-slate-600 relative">
-            <nav class="h-10 w-full flex row-reverse justify-end sm:h-12 sm:w-full">
-                <button id="menuBtn" class="block h-9 text-3xl mx-8 text-white sm:hidden">&equiv;</button>
-                <ul id="mainMenu" class="hidden absolute w-full left-0 top-9 p-4 text-center bg-orange-300  sm:relative sm:top-0 sm:flex sm:p-3 sm:flex-row-reverse sm:bg-slate-600 sm:mb-0 sm:justify-center">
-                    <li class="mb-2 sm:mb-0 sm:mx-4 sm:hover:bg-slate-600">
-                        <a class="text-white text-xl font-semibold sm:text-sm" href="">Home</a>
-                    </li>
-                    <li class="mb-2 sm:mb-0 sm:mx-4 sm:hover:bg-slate-600">
-                        <a class="text-white text-xl font-semibold sm:text-sm" href="">About me</a>
-                    </li>
-                    <li class="mb-2 sm:mb-0 sm:mx-4 sm:hover:bg-slate-600">
-                        <a class="text-white text-xl font-semibold sm:text-sm" href="">Skills</a>
-                    </li>
-                    <li class="mb-2 sm:mb-0 sm:mx-4 sm:hover:bg-slate-600">
-                        <a class="text-white text-xl font-semibold sm:text-sm" href="">Contact</a>
-                    </li>
-                </ul>
-            </nav>
+        <div class=" bg-slate-600 relative flex justify-between h-12 sm:h-14">
+            <div>
+            <img class="inline-blockitems-start h-10 mt-1 ml-1 rounded sm:h-12" src="my-logo.jpg" alt="my logo">
+            </div>
+            <div>
+                <nav class="flex row-reverse justify-end sm:h-12 sm:w-full sm:items-center">
+                    <button id="menuBtn" class="block h-10 text-4xl mx-8 text-white sm:hidden">&equiv;</button>
+                    <ul id="mainMenu" class="hidden absolute w-full left-0 top-12 p-4 text-center bg-blue-300  sm:relative sm:top-0 sm:flex sm:p-3 sm:flex-row-reverse sm:bg-slate-600 sm:mb-0 sm:justify-center sm:text-center sm:mt-2 sm:mr-2">
+                        <li class="mb-2 sm:mb-0 sm:mx-4">
+                            <a class="text-white text-xl font-semibold sm:text-xl" href="">Home</a>
+                        </li>
+                        <li class="mb-2 sm:mb-0 sm:mx-4">
+                            <a class="text-white text-xl font-semibold sm:text-xl" href="">About me</a>
+                        </li>
+                        <li class="mb-2 sm:mb-0 sm:mx-4">
+                            <a class="text-white text-xl font-semibold sm:text-xl" href="">Skills</a>
+                        </li>
+                        <li class="mb-2 sm:mb-0 sm:mx-4">
+                            <a class="text-white text-xl font-semibold sm:text-xl" href="">Contact</a>
+                        </li>
+                        <li class="mb-0 sm:mb-0 sm:mx-4">
+                            <button class=" bg-fuchsia-700 px-2 font-semibold rounded text-green-300 p-1 sm:rounded sm:px-2 sm:mr-4">Signin</button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            
         </div>
         <div>
             <div class="text-white bg-slate-400 ">
@@ -39,7 +47,6 @@
                 <img class="w-full h-full" src="login-page-img.png" alt="login page">
             </div>
         </div>
-    </div>
     <script src="script.js"></script>
 </body>
 </html>
